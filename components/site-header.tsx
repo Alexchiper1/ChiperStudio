@@ -1,10 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-import { navLinks } from "@/lib/site-data";
+import { brandName, navLinks } from "@/lib/site-data";
 
 export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,15 +12,8 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
       <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between gap-4">
-          <a href="#top" className="flex items-center text-white">
-            <Image
-              src="/Logo.png"
-              alt="Chiper Studio logo"
-              width={265}
-              height={63}
-              className="h-10 w-auto object-contain sm:h-12"
-              priority
-            />
+          <a href="#top" className="flex items-center text-lg font-semibold tracking-tight text-white sm:text-xl">
+            {brandName}
           </a>
 
           <nav className="hidden items-center gap-8 text-sm text-slate-300 lg:flex">

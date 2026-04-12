@@ -6,7 +6,6 @@ import {
   Sparkles,
   Star,
 } from "lucide-react";
-import Image from "next/image";
 
 import { ContactForm } from "@/components/contact-form";
 import { SectionHeading } from "@/components/section-heading";
