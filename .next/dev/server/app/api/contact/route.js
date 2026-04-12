@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/contact/route.js")
+R.c("server/chunks/app_api_contact_route_ts_0q77jvw._.js")
+R.c("server/chunks/node_modules_next_0yv3-k1._.js")
+R.c("server/chunks/node_modules_postal-mime_src_0rk2qyc._.js")
+R.c("server/chunks/node_modules_svix_dist_0ussw59._.js")
+R.c("server/chunks/node_modules_0_y-cg1._.js")
+R.c("server/chunks/[root-of-the-server]__0spc0f~._.js")
+R.c("server/chunks/_next-internal_server_app_api_contact_route_actions_02158u4.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/contact/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/contact/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
