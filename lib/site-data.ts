@@ -9,21 +9,21 @@ export const navLinks = [
 
 export const services = [
   {
-    title: "Website Design",
+    title: "Portfolio Websites",
     description:
-      "Clean, modern layouts that help customers trust your business quickly and take action without confusion.",
+      "Simple, professional websites for individuals, freelancers, tradespeople, and personal brands that need to show their work clearly online.",
     icon: "palette",
   },
   {
-    title: "Website Development",
+    title: "Business Websites",
     description:
-      "Fast, mobile-friendly websites and tailored builds that look polished, perform well, and support real business goals.",
+      "Modern, mobile-friendly websites for businesses that need service pages, strong first impressions, contact forms, and better online credibility.",
     icon: "code",
   },
   {
-    title: "Ongoing Support",
+    title: "Online Business Management",
     description:
-      "Optional updates, maintenance, and improvements, with custom systems and advanced features available when your business needs more.",
+      "Ongoing monthly support for websites, Google Business Profile, social media pages, online updates, and helping businesses stay active online.",
     icon: "shield",
   },
 ] as const;

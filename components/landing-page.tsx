@@ -43,13 +43,11 @@ export function LandingPage() {
               </div>
 
               <h1 className="mt-7 text-[2.7rem] font-semibold tracking-tight text-white sm:mt-8 sm:text-5xl lg:text-6xl">
-                Modern websites and digital systems for businesses that want to grow.
+                Websites and online business management for local businesses.
               </h1>
 
               <p className="mt-5 max-w-xl text-base leading-8 text-slate-300 sm:mt-6 sm:text-xl">
-                I help businesses look more professional, save time, and create a
-                stronger online presence through fast websites and tailored digital
-                systems built around real business needs.
+                Chiper Studio helps businesses get online, look professional, attract more enquiries, and stay active across their website, Google Business Profile, and social media.
               </p>
 
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
