@@ -101,32 +101,34 @@ export const pricingPlans = [
     ],
   },
   {
-    name: "Website + Ongoing Updates",
-    priceRange: "EUR80 - EUR150 / month",
-    description:
-      "For businesses that want their website kept updated after launch without having to manage changes themselves.",
-    features: [
-      "Website updates",
-      "Small content changes",
-      "New images or text added",
-      "Fixes and improvements",
-      "Monthly support",
-    ],
-  },
-  {
-    name: "Online Business Management",
-    priceRange: "EUR200 - EUR500+ / month",
-    description:
-      "For businesses that want help setting up and managing their online presence across Google, social media, and their website.",
-    features: [
-      "Google Business Profile setup",
-      "Social media page setup",
-      "Online profile improvements",
-      "Website updates",
-      "Posts and business content support",
-      "Monthly online management",
-    ],
-  },
+  name: "Website + Ongoing Updates",
+  priceRange: "Website price + €80 - €150 / month",
+  description:
+    "For businesses that want a website built first, then ongoing monthly help to keep it updated after launch.",
+  features: [
+    "Website build priced separately",
+    "Monthly website updates",
+    "Small content changes",
+    "New images or text added",
+    "Fixes and improvements",
+    "Ongoing support after launch",
+  ],
+},
+{
+  name: "Online Business Management",
+  priceRange: "Website price + €200 - €500+ / month",
+  description:
+    "For businesses that want a website plus ongoing help managing their online presence across Google, social media, and their website.",
+  features: [
+    "Website build priced separately",
+    "Google Business Profile setup",
+    "Social media page setup",
+    "Online profile improvements",
+    "Website updates",
+    "Posts and business content support",
+    "Monthly online management",
+  ],
+},
 ] as const;
 
 export const socialLinks = [
