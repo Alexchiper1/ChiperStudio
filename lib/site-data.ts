@@ -74,49 +74,57 @@ export const portfolioProjects = [
 
 export const pricingPlans = [
   {
-    name: "Starter Website",
-    priceRange: "EUR400 - EUR600",
+    name: "Portfolio Website",
+    priceRange: "EUR300 - EUR500",
     description:
-      "A strong starting point for businesses that need a professional, modern online presence without overcomplicating the build.",
+      "Best for individuals, freelancers, students, tradespeople, or small personal brands that need a simple professional online presence.",
     features: [
-      "1-3 pages",
+      "1-2 pages",
       "Mobile responsive design",
-      "Contact form",
-      "Fast and modern layout",
+      "Portfolio / work showcase",
+      "Contact section",
+      "One-time build and deployment",
     ],
   },
   {
     name: "Business Website",
     priceRange: "EUR700 - EUR1200",
     description:
-      "For businesses that need a stronger online presence, clearer messaging, and a site built to support trust and lead generation.",
+      "Best for businesses that need a proper website to explain their services, build trust, and generate customer enquiries.",
     features: [
       "4-8 pages",
-      "Stronger business-focused design",
+      "Service pages",
+      "Contact form",
       "Basic SEO setup",
       "Performance optimisation",
+      "One-time build and deployment",
     ],
   },
   {
-    name: "Ongoing Support",
-    priceRange: "EUR40 - EUR80 / month",
-    description:
-      "Ongoing help for businesses that want their site kept up to date without having to manage every small change themselves.",
-    features: [
-      "Updates",
-      "Fixes",
-      "Small content changes",
-    ],
-  },
-  {
-    name: "Growth / Improvements",
+    name: "Website + Ongoing Updates",
     priceRange: "EUR80 - EUR150 / month",
     description:
-      "Best for businesses that want to improve results over time with new features, refinements, and steady website upgrades.",
+      "For businesses that want their website kept updated after launch without having to manage changes themselves.",
     features: [
-      "Feature additions",
-      "UX improvements",
-      "Performance tweaks",
+      "Website updates",
+      "Small content changes",
+      "New images or text added",
+      "Fixes and improvements",
+      "Monthly support",
+    ],
+  },
+  {
+    name: "Online Business Management",
+    priceRange: "EUR200 - EUR500+ / month",
+    description:
+      "For businesses that want help setting up and managing their online presence across Google, social media, and their website.",
+    features: [
+      "Google Business Profile setup",
+      "Social media page setup",
+      "Online profile improvements",
+      "Website updates",
+      "Posts and business content support",
+      "Monthly online management",
     ],
   },
 ] as const;
