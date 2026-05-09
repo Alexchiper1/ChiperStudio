@@ -15,7 +15,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.harbourwebstudio.ie"),
+  metadataBase: new URL("https://chiperstudio.vercel.app"),
   title: "Modern Websites and Digital Systems | Chiper Studio",
   description:
     "Chiper Studio builds fast, modern websites and digital systems for businesses that want more leads, better first impressions, and smoother operations.",
